@@ -79,7 +79,7 @@ const isMobile = useMediaQuery({maxWidth : "768px"})
                 <Image src={"/pnh.png"} className='object-cover' alt='fantasy' fill />
             </div>
             <div className=' absolute w-full h-full'>
-                <Image src={"/fantasyhero.png"} className='object-cover' alt='fantasy' fill />
+                <Image src={"/fantasyhero.jpg"} className='object-cover' alt='fantasy' fill />
             </div>
                <div className='island absolute xl:w-100 xl:h-100 w-44 h-44 top-96 z-10 xl:top-65 right-45 xl:right-96'>
                 <Image src={"/floatismand.png"} className='object-cover' alt='fantasy' fill />
