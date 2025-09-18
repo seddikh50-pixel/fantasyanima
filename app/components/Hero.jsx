@@ -18,11 +18,6 @@ const isMobile = useMediaQuery({maxWidth : "768px"})
 
     useGSAP(() => {
 
-        // gsap.from('.island',{
-        //     y : 100,
-        //     duration : 0.5,
-        //     ease : "power1"
-        // })
         const splitName = SplitText.create(".textname", {
             type: "words, lines , chars",
             mask: "lines",
@@ -42,7 +37,6 @@ const isMobile = useMediaQuery({maxWidth : "768px"})
                 start: 'top top',
                 end: "+=1000",
                 scrub: 2,
-                markers : true,
                 pin: true
             }
         })

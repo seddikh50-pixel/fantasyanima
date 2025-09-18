@@ -20,7 +20,6 @@ const Fileds = () => {
         trigger: ".description",
         start: "top 60%",
         end: "+=700",
-        markers: true,
         scrub: 1,
 
       }
@@ -43,7 +42,6 @@ const Fileds = () => {
         trigger: ".description",
         start: "top top",
         end: "bottom top",
-        markers: true,
         scrub: 3,
         pin: true
       }
