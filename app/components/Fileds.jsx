@@ -30,7 +30,7 @@ const Fileds = () => {
         ease: "power1"
       })
       .to(".textdesc", {
-        x: -1280,
+        x: -1400,
         duration: 2,
         ease: "power1"
       });
