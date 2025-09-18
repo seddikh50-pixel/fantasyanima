@@ -8,7 +8,7 @@ const kodeMono = Kode_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={kodeMono.className + "  overflow-x-hidden"}>
+      <body className={kodeMono.className + "  overflow-x-hidden bg-amber-100"}>
         {children}
       </body>
     </html>

@@ -66,11 +66,14 @@ const isMobile = useMediaQuery({maxWidth : "768px"})
             scale : 0.6,
             ease: "power1"
         },'<')
+        cloudsTimeLine.to('.hero',{
+            borderRadius : "40px",
+        })
     })
 
 
     return (
-        <div className='hero relative w-screen h-screen flex justify-center items-center overflow-x-hidden '>
+        <div className='hero relative w-full h-full flex justify-center items-center overflow-hidden bg-amber-100 '>
             <h1 className='textname z-2 text-[10vh] xl:text-[37vh] text-amber-100 uppercase font-bold '>Elarion</h1>
             <div className='leftcloud absolute xl:w-full top-60 xl:-top-20 -left-80  w-150 h-96  xl:-left-280 xl:h-full z-3'>
                 <Image src={"/pnh.png"} className='object-cover' alt='fantasy' fill />
