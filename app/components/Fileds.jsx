@@ -41,8 +41,8 @@ const Fileds = () => {
       {/* <div className=' absolute w-full h-full '>
             <Image alt='fantasy' className='object-cover' fill src={"/rendering.jpg"}/>
         </div>  */}
-      <h1 className='textdesc text-[35vh]'>Elarion</h1>
-      <p>Elarion — a realm of endless magic where light and shadow dance in eternal harmony.</p>
+      <h1 className='textdesc text-[10vh] text-black xl:text-[35vh]'>Elarion</h1>
+      <p className='text-black text-[4vh]'>Elarion — a realm of endless magic where light and shadow dance in eternal harmony.</p>
     </div>
   )
 }
