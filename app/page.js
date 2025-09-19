@@ -9,6 +9,9 @@ export default function Home() {
           <Hero/>
          <Fileds/>
          <Nytheris/>
+         <div className="h-screen w-screen bg-black">
+             
+         </div>
     </div>
   );
 }
