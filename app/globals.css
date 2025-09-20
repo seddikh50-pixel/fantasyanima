@@ -27,5 +27,11 @@ body {
 /* .parent {
   perspective: 1000px;
 } */
+html, body, #smooth-wrapper {
+  height: 100%;
+/* مهم لـ ScrollSmoother */
+}
 
-
+#smooth-content {
+  min-height:700vh; /* علشان يطول كفاية ويظهر التمرير */
+}

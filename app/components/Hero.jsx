@@ -18,6 +18,8 @@ const isMobile = useMediaQuery({maxWidth : "768px"})
 
     useGSAP(() => {
 
+        
+
         const splitName = SplitText.create(".textname", {
             type: "words, lines , chars",
             mask: "lines",

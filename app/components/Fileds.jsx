@@ -43,7 +43,8 @@ const Fileds = () => {
         start: "top top",
         end: "bottom top",
         scrub: 3,
-        pin: true
+        pin: true,
+        pinSpacing : false
       }
     })
 
